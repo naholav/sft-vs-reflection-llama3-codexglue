@@ -101,10 +101,9 @@ The meta dataset creation process:
    {
      "nl": "natural language description",
      "code": "correct Java implementation", 
-     "label": "meta",
      "base_model": "LLaMA's zero-shot attempt",
      "error_analysis": "Claude's error analysis",
-     "learning_insights": "Claude's improvement suggestions"
+     "learning_insights": "Claude's improvement suggestions",
      "label": "meta"
    }
    ```
