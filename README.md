@@ -149,7 +149,7 @@ The meta dataset creation process:
 ### Hardware & Performance
 - **GPU**: NVIDIA A100 80GB
 - **Training Time**: ~8 hours (SFT), ~9 hours (Reflection)
-- **Peak Memory**: ~40-50GB VRAM
+- **Peak Memory**: ~70-75GB VRAM
 - **Framework**: PyTorch 2.0+ with Transformers
 
 ## 📈 Evaluation Process
@@ -176,7 +176,7 @@ Requirements:
 **Training vs Inference Prompts**:
 - **SFT Model**: Trained and evaluated with the same prompt format ✅
 - **Reflection Model**: 
-  - Training: Used teacher-student reflection format
+  - Training: Used teacher-student reflection and SFT prompts format
   - Inference: Used standard SFT prompt (same as above)
 
 **Future Work**: The reflection model might perform even better with specialized prompts that leverage its training. Potential prompt engineering opportunities:
