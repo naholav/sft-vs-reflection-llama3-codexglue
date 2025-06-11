@@ -339,7 +339,7 @@ python "create meta dataset and test dataset/claude_analysis_api.py"
 
 ## 🔗 Quick Links
 
-### Our Contributions
+### My Contributions
 - **This Repository**: [naholav/sft-vs-reflection-llama3-codexglue](https://github.com/naholav/sft-vs-reflection-llama3-codexglue)
 - **SFT Model**: [Hugging Face](https://huggingface.co/Naholav/llama-3.2-3b-100k-codeXGLUE-sft)
 - **Reflection Model**: [Hugging Face](https://huggingface.co/Naholav/llama-3.2-3b-100k-codeXGLUE-reflection)
