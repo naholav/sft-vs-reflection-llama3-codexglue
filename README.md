@@ -62,6 +62,7 @@ sft-vs-reflection-llama3-codexglue/
 ├── training_scripts/
 │   ├── train_meta.py                        # Reflection-based training script
 │   └── train_sft.py                         # Standard SFT training script
+├── Comparison_of_SFT_and_Reflection_Based_Meta_Learning_for_Code_Generation.pdf  # Full research paper
 └── README.md
 ```
 
@@ -336,6 +337,10 @@ python "create meta dataset and test dataset/claude_analysis_api.py"
 - Best checkpoint: Epoch 2, Step 3750
 - Dual loss tracking enabled
 - Meta examples showed faster convergence
+
+## 📄 Full Paper
+
+For a comprehensive analysis and detailed methodology, please refer to our full research paper: **Comparison of Standard Fine-Tuning and Reflection-Based Meta-Learning for Code Generation** (available as PDF in this repository)
 
 ## 🔗 Quick Links
 
